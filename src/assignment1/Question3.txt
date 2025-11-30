@@ -1,0 +1,14 @@
+question3 : find the output of the following code:
+
+int main()
+{
+int i;
+int arr[5] = {1};
+for (i = 0; i < 5; i++)
+printf("%d",arr[i]);
+return 0;
+}
+
+output: 1000
+
+for partial initialisation, in c, all remaining elements are automatically initialized to 0.
